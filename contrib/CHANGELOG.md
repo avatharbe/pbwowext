@@ -1,6 +1,7 @@
 ## Changelog
 
 ##### 3.3.2 14/04/2026
+- [FIX] Add `pointer-events: none` to `#video-background` — the WebKit `z-index: auto` reset promoted the decorative layer into the `z-index: 0` layer, where it swallowed clicks on static content such as a style's footer (#28)
 - [NEW] Add PBTech-specific donate button styling with Heroes image and light-adapted blue gradient border
 - [FIX] Fix broken `sql_multi_insert` call in `release_3_2_data` migration
 - [FIX] Add missing VCHAR length specifier in `release_3_2_schema` migration

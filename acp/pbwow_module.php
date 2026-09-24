@@ -87,7 +87,7 @@ class pbwow_module
 				break;
 			default:
 				$display_vars = array(
-					'title' => 'ACP_PBWOW3_CATEGORY',
+					'title' => 'PBWOW_CONFIG_TITLE',
 					'vars'  => array()
 				);
 				break;

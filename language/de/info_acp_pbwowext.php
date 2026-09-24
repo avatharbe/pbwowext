@@ -24,7 +24,8 @@ $lang = array_merge($lang, array(
 	'ACP_PBWOWEXT_CONFIG'			=> 'Konfiguration',
 
 	// Extension requirements
-	'EXTENSION_REQUIRES_330'		=> 'Diese Erweiterung erfordert phpBB 3.3.0 oder höher.',
+	'PBWOW_PHP_VERSION_FAIL'		=> 'Diese Erweiterung benötigt PHP %1$s oder höher. Du verwendest PHP %2$s.',
+	'PBWOW_PHPBB_VERSION_FAIL'	=> 'Diese Erweiterung benötigt phpBB %1$s oder höher. Du verwendest phpBB %2$s.',
 
 	'LOG_PBWOW_CONFIG'			=> '<strong>PBWoW-Einstellungen geändert</strong><br />&raquo; %s',
 

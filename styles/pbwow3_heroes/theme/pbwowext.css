@@ -109,6 +109,10 @@ body.pbwow3 #video-background {
     width: 100%;
     overflow: hidden;
     z-index: -1000;
+    /* Decorative layer only. The WebKit z-index reset below puts it in the
+       z-index: 0 layer, where it would otherwise swallow clicks on any
+       static content beneath it, such as a style's #page-footer. */
+    pointer-events: none;
 }
 
 #video-container {

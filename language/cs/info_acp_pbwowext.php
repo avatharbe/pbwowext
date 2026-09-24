@@ -44,7 +44,8 @@ $lang = array_merge($lang, array(
 	'ACP_PBWOWEXT_CONFIG'			=> 'Konfigurace',
 
 	// Extension requirements
-	'EXTENSION_REQUIRES_330'		=> 'Toto rozšíření vyžaduje phpBB 3.3.0 nebo novější.',
+	'PBWOW_PHP_VERSION_FAIL'		=> 'Toto rozšíření vyžaduje PHP %1$s nebo vyšší. Používáte PHP %2$s.',
+	'PBWOW_PHPBB_VERSION_FAIL'	=> 'Toto rozšíření vyžaduje phpBB %1$s nebo vyšší. Používáte phpBB %2$s.',
 
 	'LOG_PBWOW_CONFIG'			=> '<strong>Změněno nastavení PBWoW</strong><br />&raquo; %s',
 

@@ -1,6 +1,9 @@
 ## Changelog
 
 ##### 3.3.2 24/09/2026
+- [FIX] Route the `is_enableable()` version errors through the language system instead of hardcoded English, using new `PBWOW_PHP_VERSION_FAIL` / `PBWOW_PHPBB_VERSION_FAIL` keys translated in all 14 language packs
+- [CHG] Drop the unused `EXTENSION_REQUIRES_330` key, superseded by the two placeholder keys above
+- [FIX] The ACP module's fallback branch referenced `ACP_PBWOW3_CATEGORY`, which no language pack defines; it now uses `PBWOW_CONFIG_TITLE`
 - [FIX] Add `pointer-events: none` to `#video-background` — the WebKit `z-index: auto` reset promoted the decorative layer into the `z-index: 0` layer, where it swallowed clicks on static content such as a style's footer (#28)
 - [CHG] Remove the Index Advertisement Block (`ads_index_enable` / `ads_index_code`) — the feature is provided by avathar/recenttopics via its own `rt_ads_enable` / `rt_ads_code` settings (#30)
 - [CHG] Remove the `avathar.recenttopicsav.modify_ads_code` listener — Recent Topics dispatches `avathar.recenttopics.modify_ads_code`, so it never fired

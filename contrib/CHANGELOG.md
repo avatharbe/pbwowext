@@ -1,7 +1,6 @@
 ## Changelog
 
 ##### 3.3.2 24/09/2026
-- [CHG] Rewrite README to match the Recent Topics layout — split Features from ACP Options, document extension integrations, and drop the advertisement block that no longer ships
 - [FIX] Add `pointer-events: none` to `#video-background` — the WebKit `z-index: auto` reset promoted the decorative layer into the `z-index: 0` layer, where it swallowed clicks on static content such as a style's footer (#28)
 - [CHG] Remove the Index Advertisement Block (`ads_index_enable` / `ads_index_code`) — the feature is provided by avathar/recenttopics via its own `rt_ads_enable` / `rt_ads_code` settings (#30)
 - [CHG] Remove the `avathar.recenttopicsav.modify_ads_code` listener — Recent Topics dispatches `avathar.recenttopics.modify_ads_code`, so it never fired

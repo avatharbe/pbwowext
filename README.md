@@ -51,7 +51,7 @@ pbWoW3, pbTech, pbWoW3 Heroes, pbWoW3 WotLK — the four styles shipping a dedic
 3. To permanently uninstall, click `Delete Data`, then delete the `pbwowext` folder from `/ext/paybas/`.
 
 #### Support
-- [Support forum](https://www.avathar.be/forum/viewforum.php?f=16)
+- [Support forum](https://www.avathar.be/forum/viewforum.php?f=107)
 - [GitHub Issues](https://github.com/avatharbe/pbwowext/issues)
 
 #### License

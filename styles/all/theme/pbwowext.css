@@ -153,16 +153,15 @@ body.fixedbg #video-background {
     opacity: 0.75;
 }
 
-
-/* Recent Topics Advertisement block customisations
----------------------------------------------------- */
-
-.advertisement {
+/* Advertisement block */
+.misc-block.advertisement {
     margin: 10px auto;
     padding: 0;
     overflow: hidden;
 }
 
+/* Donate / Advertisement block styling
+---------------------------------------------------- */
 .donate-button {
     background: url('./images/donate.jpg') no-repeat 0 0;
     display: block;

@@ -88,10 +88,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Vaste achtergrondpositie',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Door de achtergrondpositie (inclusief video) vast te zetten, wordt voorkomen dat deze meescrollt met de rest van de inhoud. Houd er rekening mee dat sommige apparaten met een lagere resolutie de volledige achtergrondafbeelding mogelijk niet kunnen weergeven.',
-
-	'PBWOW_ADS_INDEX'					=> 'Advertentieblok op de indexpagina voor Recente Onderwerpen',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Indexadvertentie inschakelen',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Het inschakelen van deze advertentie genereert een smal advertentieblok op de forumindexpagina (vereist de Recent Topics extensie).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Indexadvertentie-code',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dit blok is geschikt voor advertenties met een <u>breedte</u> van: <b>300px</b>.<br />Als u aangepaste CSS-opmaak wilt gebruiken of wijzigen, voeg deze dan toe aan <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

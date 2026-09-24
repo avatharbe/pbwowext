@@ -88,10 +88,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Posición de fondo fija',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Fijar la posición del fondo (incluido el vídeo) evitará que se desplace junto con el resto del contenido. Tenga en cuenta que algunos dispositivos de menor resolución no podrán mostrar la imagen de fondo completa.',
-
-	'PBWOW_ADS_INDEX'					=> 'Bloque de publicidad en el índice para Temas Recientes',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Activar publicidad en el índice',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Al activar esta publicidad, se generará un bloque de publicidad estrecho en la página del índice del foro (requiere la extensión Recent Topics).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Código de publicidad del índice',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Este bloque es adecuado para publicidad con un <u>ancho</u> de: <b>300px</b>.<br />Si desea usar o cambiar estilos CSS personalizados, añádalos a <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

@@ -2,6 +2,9 @@
 
 ##### 3.3.2 14/04/2026
 - [FIX] Add `pointer-events: none` to `#video-background` — the WebKit `z-index: auto` reset promoted the decorative layer into the `z-index: 0` layer, where it swallowed clicks on static content such as a style's footer (#28)
+- [CHG] Remove the Index Advertisement Block (`ads_index_enable` / `ads_index_code`) — the feature is provided by avathar/recenttopics via its own `rt_ads_enable` / `rt_ads_code` settings (#30)
+- [CHG] Remove the `avathar.recenttopicsav.modify_ads_code` listener — Recent Topics dispatches `avathar.recenttopics.modify_ads_code`, so it never fired
+- [CHG] Add `release_3_3_2` migration dropping the two advertisement rows from `pbwowext_config`
 - [NEW] Add PBTech-specific donate button styling with Heroes image and light-adapted blue gradient border
 - [FIX] Fix broken `sql_multi_insert` call in `release_3_2_data` migration
 - [FIX] Add missing VCHAR length specifier in `release_3_2_schema` migration

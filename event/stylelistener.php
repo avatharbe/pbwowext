@@ -42,7 +42,6 @@ class stylelistener implements EventSubscriberInterface
 	{
 		return array(
 			'core.page_header'                                    => 'page_header',
-			'avathar.recenttopicsav.modify_ads_code'              => 'modify_ads_code',
 		);
 	}
 
@@ -52,21 +51,6 @@ class stylelistener implements EventSubscriberInterface
 	public function page_header()
 	{
 		$this->pbwowstyle->global_style_append();
-	}
-
-	/**
-	 * Provide the PBWoW advertisement block content to Recent Topics.
-	 *
-	 * @param \phpbb\event\data $event
-	 */
-	public function modify_ads_code($event)
-	{
-		$ads_index_code = $this->pbwowstyle->get_ads_index_code();
-
-		if ($ads_index_code !== false)
-		{
-			$event['ads_index_code'] = $ads_index_code;
-		}
 	}
 
 }

@@ -96,10 +96,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Fixovaná pozícia pozadia',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Fixovanie pozície pozadia (vrátane videa) zabráni jeho posúvaniu spolu so zvyškom obsahu. Majte na pamäti, že niektoré zariadenia s nižším rozlíšením nebudú môcť zobraziť celý obrázok pozadia.',
-
-	'PBWOW_ADS_INDEX'					=> 'Reklamný blok na indexe pre Nedávne témy',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Povoliť reklamu na indexe',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Povolením sa na stránke indexu fóra vygeneruje úzky reklamný blok (vyžaduje rozšírenie Nedávne témy).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Kód reklamy na indexe',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Tento blok je vhodný pre reklamy so <u>šírkou</u>: <b>300px</b>.<br />Ak chcete použiť/zmeniť vlastné CSS štýly, pridajte ich prosím do <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

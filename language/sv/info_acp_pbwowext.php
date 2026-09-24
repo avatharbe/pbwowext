@@ -88,10 +88,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Fixerad bakgrundsposition',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Att fixera bakgrundspositionen (inklusive video) förhindrar att den scrollar med resten av innehållet. Tänk på att vissa enheter med lägre upplösning inte kommer att kunna visa hela bakgrundsbilden.',
-
-	'PBWOW_ADS_INDEX'					=> 'Annonsblock på indexsidan för Senaste ämnen',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Aktivera annons på indexsidan',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Aktivering av denna annons genererar ett smalt annonsblock på forumets indexsida (kräver tillägget Senaste ämnen).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Annonskod för indexsidan',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Detta block är lämpligt för annonser med en <u>bredd</u> på: <b>300px</b>.<br />Om du vill använda/ändra anpassad CSS-styling, vänligen lägg till det i <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

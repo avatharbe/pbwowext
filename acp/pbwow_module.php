@@ -82,10 +82,6 @@ class pbwow_module
 
 						'legend5'             => 'PBWOW_FIXEDBG',
 						'fixedbg'             => array('lang' => 'PBWOW_FIXEDBG', 'validate' => 'bool', 'type' => 'radio:yes_no', 'explain' => true),
-
-						'legend6'             => 'PBWOW_ADS_INDEX',
-						'ads_index_enable'    => array('lang' => 'PBWOW_ADS_INDEX_ENABLE', 'validate' => 'bool', 'type' => 'radio:enabled_disabled', 'explain' => true),
-						'ads_index_code'      => array('lang' => 'PBWOW_ADS_INDEX_CODE', 'type' => 'textarea:6:6', 'explain' => true),
 					)
 				);
 				break;

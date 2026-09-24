@@ -88,10 +88,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Fixed background position',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Fixing the background position (including video) will prevent it from scrolling along with the rest of the content. Keep in mind that some lower resolution devices will have no option to see the entire background image.',
-
-	'PBWOW_ADS_INDEX'					=> 'Index Advertisement Block for Recent Topics',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Enable index advertisement',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Enabling this ad will generate a narrow advertisement block on the forum index page (requires Recent Topics extension).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Index advertisement code',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'This block is suitable for advertisements with a <u>width</u> of: <b>300px</b>.<br />If you want to use/change custom CSS styling, please add it to <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

@@ -96,10 +96,4 @@ $lang = array_merge($lang, array(
 	'PBWOW_VIDEOBG_ALLPAGES_EXPLAIN'	=> 'Por predefinição, o PBWoW apenas carrega os fundos de vídeo (se disponíveis) nas páginas <u>index.php</u>. Pode ativá-los para todas as páginas, mas isso poderá afetar a velocidade de navegação dos seus visitantes (mas em geral não a largura de banda do seu servidor, pois são armazenados localmente em cache). [aplica-se apenas se o vídeo estiver ativado]',
 	'PBWOW_FIXEDBG'						=> 'Posição de fundo fixa',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Fixar a posição do fundo (incluindo vídeo) impedirá que este se desloque juntamente com o restante conteúdo. Tenha em atenção que alguns dispositivos com menor resolução não terão possibilidade de visualizar a imagem de fundo por completo.',
-
-	'PBWOW_ADS_INDEX'					=> 'Bloco publicitário no índice para Tópicos Recentes',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Ativar publicidade no índice',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Ao ativar esta opção, será gerado um bloco publicitário estreito na página de índice do fórum (requer a extensão Recent Topics).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Código da publicidade no índice',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Este bloco é adequado para publicidades com uma <u>largura</u> de: <b>300px</b>.<br />Se pretender utilizar/alterar estilos CSS personalizados, adicione-os em <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp>',
 ));

@@ -76,10 +76,4 @@ $lang = array_merge($lang, array(
 
 	'PBWOW_FIXEDBG'						=> 'Feste Hintergrundposition',
 	'PBWOW_FIXEDBG_EXPLAIN'				=> 'Das Fixieren der Hintergrundposition (einschließlich Video) verhindert, dass der Hintergrund mit dem restlichen Inhalt mitscrollt. Beachte, dass einige Geräte mit niedriger Auflösung möglicherweise nicht das gesamte Hintergrundbild anzeigen können.',
-
-	'PBWOW_ADS_INDEX'					=> 'Index-Werbeblock für Letzte Themen',
-	'PBWOW_ADS_INDEX_ENABLE'			=> 'Index-Werbung aktivieren',
-	'PBWOW_ADS_INDEX_ENABLE_EXPLAIN'	=> 'Durch Aktivierung wird ein schmaler Werbeblock auf der Foren-Indexseite erzeugt (erfordert die Erweiterung Recent Topics).',
-	'PBWOW_ADS_INDEX_CODE'				=> 'Index-Werbungscode',
-	'PBWOW_ADS_INDEX_CODE_EXPLAIN'		=> 'Dieser Block ist für Werbung mit einer <u>Breite</u> von <b>300px</b> geeignet.<br />Wenn du benutzerdefinierte CSS-Stile verwenden/ändern möchtest, füge diese bitte in <samp>ext/paybas/pbwowext/styles/all/theme/pbwowext.css</samp> hinzu.',
 ));

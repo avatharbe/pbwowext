@@ -126,8 +126,6 @@ class pbwowstyle
 		$videobg_enable = $pbwow_config['videobg_enable'] ?? false;
 		$videobg_allpages = $pbwow_config['videobg_allpages'] ?? false;
 		$fixedbg = $pbwow_config['fixedbg'] ?? false;
-		$ads_index_enable = $pbwow_config['ads_index_enable'] ?? false;
-		$ads_index_code = $pbwow_config['ads_index_code'] ?? '';
 		$tpl_vars = array();
 		$body_class = ' pbwow-ext';
 
@@ -211,32 +209,6 @@ class pbwowstyle
 		$this->template->append_var('BODY_CLASS', $body_class);
 	}
 
-
-	/**
-	 * Returns the formatted advertisement block HTML for the index page, or false if disabled.
-	 * Called by the avathar.recenttopicsav.modify_ads_code event listener.
-	 *
-	 * @return string|false
-	 */
-	public function get_ads_index_code()
-	{
-		$pbwow_config = $this->pbwow_config;
-
-		if (!isset($pbwow_config) || !is_array($pbwow_config))
-		{
-			return false;
-		}
-
-		$ads_index_enable = $pbwow_config['ads_index_enable'] ?? false;
-		$ads_index_code = $pbwow_config['ads_index_code'] ?? '';
-
-		if ($ads_index_enable && $ads_index_code)
-		{
-			return str_replace('&', '&amp;', html_entity_decode($ads_index_code));
-		}
-
-		return false;
-	}
 
 	/**
 	 * Gets the PBWoW config data from the DB, or the cache if it is present

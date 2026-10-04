@@ -2,6 +2,7 @@
 
 ##### 3.3.3 04/10/2026
 - [CHG] Render the custom header links (`HEADERLINKS_CODE`) through the `overall_header_navigation_append` template event instead of relying on each style to print the variable in its own `navbar_header.html`; styles must drop their inline copy at the same time, or the links show twice (#36)
+- [FIX] Ship `bar-bg.jpg` with the PBTech style override; `styles/pbtech/theme/pbwowext.css` pointed the top bar at an image the folder did not contain, so PBTech boards logged a 404 and showed a flat blue bar (#38)
 
 ##### 3.3.2 24/09/2026
 - [FIX] Route the `is_enableable()` version errors through the language system instead of hardcoded English, using new `PBWOW_PHP_VERSION_FAIL` / `PBWOW_PHPBB_VERSION_FAIL` keys translated in all 14 language packs

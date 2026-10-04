@@ -4,7 +4,7 @@ PBWoW 3.3 Extension for phpBB
 Extension for phpBB 3.3 to enhance the pbWoW3 and pbTech styles with additional functionality.
 Originally by PayBas. Now maintained by [avathar](https://www.avathar.be).
 
-**Version:** 3.3.2 (24/09/2026)
+**Version:** 3.3.3 (04/10/2026)
 
 #### Requirements
 - phpBB 3.3.0 or higher
